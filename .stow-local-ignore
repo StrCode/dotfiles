@@ -1,4 +1,29 @@
 .git
+
 scripts
-/.DS_Store
 .DS_Store
+
+.zcompdump
+.zcompcache
+
+RCS
+.+,v
+
+CVS
+\.\#.+       # CVS conflict files / emacs lock files
+\.cvsignore
+
+\.svn
+_darcs
+\.hg
+
+\.git
+\.gitignore
+\.gitmodules
+
+.+~          # emacs backup files
+\#.*\#       # emacs autosave files
+
+^/README.*
+^/LICENSE.*
+^/COPYINGmp
