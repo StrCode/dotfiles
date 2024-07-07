@@ -12,7 +12,7 @@ local schemes  = selector.new({ title = "Color Scheme Selector",  subdir = "colo
 local sizes    = selector.new({ title = "Font Size Selector",     subdir = "sizes" })
 -- stylua: ignore end
 
-fonts:select(config, "JetBrains Mono")
+fonts:select(config, "Berkeley Mono")
 schemes:select(config, "Oxocarbon Dark")
 
 -- Configuration
@@ -24,13 +24,13 @@ config.adjust_window_size_when_changing_font_size = false
 
 config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 config.window_frame = {
-  font = wezterm.font({ family = "BerkeleyMonoTrial Nerd Font", weight = "Regular" }),
-  font_size = 14,
+  font = wezterm.font({ family = "Berkeley Mono", weight = "Regular" }),
+  font_size = 13,
 }
 config.window_padding = {
   left = 10,
   right = 0,
-  top = 10,
+  top = 0,
   bottom = 0,
 }
 
