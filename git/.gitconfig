@@ -1,4 +1,8 @@
 [init]
 	defaultBranch = main
 [user]
+	name  = vector
 	email = samcodebello@gmail.com
+[pull]
+	rebase = true
+

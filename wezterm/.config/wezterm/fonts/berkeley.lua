@@ -10,7 +10,7 @@ M.activate = function(config)
   config.font = wezterm.font(name)
   -- config.freetype_load_target = "Light"
   -- config.freetype_render_target = "HorizontalLcd"
-  config.font_size = 14.0
+  config.font_size = 14.5
   config.line_height = 1.3
   config.harfbuzz_features = { "ss02=1" }
   config.font_rules = {}
