@@ -781,6 +781,7 @@ require('lazy').setup({
   -- require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
   -- require 'kickstart.plugins.neo-tree',
+  require 'kickstart.plugins.dashboard',
   require 'kickstart.plugins.autopairs',
   require 'kickstart.plugins.harpoon',
   require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
