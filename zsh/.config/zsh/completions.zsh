@@ -22,6 +22,9 @@ zinit snippet OMZP::brew
 zinit snippet OMZP::python
 zinit snippet OMZP::1password
 
+# Add the zfunc - using to add rust completions
+fpath+=~/.zfunc
+
 # Load completions
 autoload -Uz compinit && compinit
 
