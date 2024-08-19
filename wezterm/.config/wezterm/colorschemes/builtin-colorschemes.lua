@@ -7,6 +7,7 @@ local colorschemes = {
   { label = "Catppuccin Mocha", value = "Catppuccin Mocha"},
   { label = "Oxocarbon Dark",   value = "Oxocarbon Dark (Gogh)" },
   { label = "Matrix",           value = "matrix" },
+  { label = "Black Metal (Bathory) (base16)",           value = "Black Metal (Bathory) (base16)" },
 }
 
 M.init = function()
