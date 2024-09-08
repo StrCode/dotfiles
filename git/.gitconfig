@@ -3,6 +3,17 @@
 [user]
 	name  = vector
 	email = samcodebello@gmail.com
+[push]
+	autoSetupRemote = true
 [pull]
 	rebase = true
-
+[core]
+	editor = nvim
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only --features=interactive
+[delta]
+	navigate = true  # use n and N to move between diff sections
+	line-numbers = true
+[merge]
+	conflictstyle = diff3pager = delta
