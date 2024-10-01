@@ -14,6 +14,28 @@ M.activate = function(config)
   config.line_height = 1.3
   config.harfbuzz_features = { "ss02=1" }
   config.font_rules = {}
+  config.font_rules = {
+    {
+      intensity = "Normal",
+      italic = false,
+      font = wezterm.font("Berkeley Mono", { weight = "Regular" }),
+    },
+    {
+      intensity = "Normal",
+      italic = true,
+      font = wezterm.font("Berkeley Mono", { weight = 325, style = "Italic" }),
+    },
+    {
+      intensity = "Bold",
+      italic = false,
+      font = wezterm.font("Berkeley Mono", { weight = "Bold" }),
+    },
+    {
+      intensity = "Bold",
+      italic = true,
+      font = wezterm.font("Berkeley Mono", { weight = "Bold", style = "Italic" }),
+    },
+  }
 end
 
 return M
