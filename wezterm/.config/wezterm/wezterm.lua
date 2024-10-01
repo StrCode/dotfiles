@@ -28,10 +28,10 @@ config.window_frame = {
   font_size = 13,
 }
 config.window_padding = {
-  left = 10,
-  right = 0,
-  top = 0,
-  bottom = 0,
+  left = 2,
+  right = 2,
+  top = 2,
+  bottom = 2,
 }
 
 config.mouse_bindings = {

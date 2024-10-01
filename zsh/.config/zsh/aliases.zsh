@@ -4,6 +4,8 @@ alias c='clear'
 alias zshreload="source ~/.zshrc"
 alias zshconfig="nvim ~/.zshrc"
 
+alias nvim-lazy='NVIM_APPNAME="nvim-lazy" nvim'
+
 alias ls='eza'
 alias ld='eza -lD'
 alias lf='eza -lf --color=always | grep -v /'
