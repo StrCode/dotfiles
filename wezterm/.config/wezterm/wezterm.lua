@@ -25,7 +25,7 @@ config.adjust_window_size_when_changing_font_size = false
 config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 config.window_frame = {
   font = wezterm.font({ family = "Berkeley Mono", weight = "Regular" }),
-  font_size = 13,
+  font_size = 12.5,
 }
 config.window_padding = {
   left = 2,
