@@ -13,7 +13,7 @@ local sizes    = selector.new({ title = "Font Size Selector",     subdir = "size
 -- stylua: ignore end
 
 fonts:select(config, "Berkeley Mono")
-schemes:select(config, "Black Metal (Bathory) (base16)")
+schemes:select(config, "Tokyo Night Moon")
 
 -- Configuration
 config.front_end = "WebGpu"
@@ -28,7 +28,7 @@ config.window_frame = {
   font_size = 14,
 }
 config.window_padding = {
-  left = 2,
+  left = 5,
   right = 2,
   top = 2,
   bottom = 2,
