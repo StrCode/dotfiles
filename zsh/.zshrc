@@ -32,3 +32,6 @@ export NVM_DIR="$HOME/.nvm"
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+# Added by Windsurf
+export PATH="/Users/vector/.codeium/windsurf/bin:$PATH"
