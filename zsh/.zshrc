@@ -35,3 +35,4 @@ export PATH=$PATH:$GOPATH/bin
 
 # Added by Windsurf
 export PATH="/Users/vector/.codeium/windsurf/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"

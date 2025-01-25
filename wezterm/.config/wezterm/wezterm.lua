@@ -13,7 +13,7 @@ local sizes    = selector.new({ title = "Font Size Selector",     subdir = "size
 -- stylua: ignore end
 
 fonts:select(config, "Berkeley Mono")
-schemes:select(config, "Tokyo Night Moon")
+schemes:select(config, "Vacuous 2")
 
 -- Configuration
 config.front_end = "WebGpu"

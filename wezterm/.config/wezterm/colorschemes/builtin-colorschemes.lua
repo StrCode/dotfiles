@@ -3,6 +3,8 @@ local M = {}
 -- stylua: ignore
 local colorschemes = {
   { label = "Ayu Dark",         value = "Ayu Dark (Gogh)" },
+  { label = "Vesper",         value = "Vesper" },
+  { label = "Vacuous 2",         value = "Vacuous 2 (terminal.sexy)" },
   { label = "Tokyo Night Moon", value = "Tokyo Night (Gogh)"},
   { label = "Catppuccin Mocha", value = "Catppuccin Mocha"},
   { label = "Oxocarbon Dark",   value = "Oxocarbon Dark (Gogh)" },
