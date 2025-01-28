@@ -24,14 +24,14 @@ config.adjust_window_size_when_changing_font_size = false
 
 config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 config.window_frame = {
-  font = wezterm.font({ family = "Berkeley Mono", weight = "Regular" }),
-  font_size = 14,
+  font = wezterm.font({ family = "Geist Mono", weight = "Regular" }),
+  font_size = 15,
 }
 config.window_padding = {
   left = 5,
-  right = 2,
-  top = 2,
-  bottom = 2,
+  right = 5,
+  top = 5,
+  bottom = 0,
 }
 
 config.mouse_bindings = {
