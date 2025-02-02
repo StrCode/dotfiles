@@ -10,7 +10,7 @@ freetype-load-flags = no-hinting
 freetype-load-flags = no-force-autohint
 
 # Fonts
-font-size = 14
+font-size = 16
 font-family = "Berkeley Mono"
 font-thicken = false
 
