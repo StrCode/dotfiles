@@ -10,7 +10,7 @@ M.activate = function(config)
   config.font = wezterm.font(name)
   -- config.freetype_load_target = "Light"
   -- config.freetype_render_target = "HorizontalLcd"
-  config.font_size = 16
+  config.font_size = 13
   config.line_height = 1.2
   config.harfbuzz_features = { "ss02=1" }
   config.font_rules = {}
@@ -18,22 +18,22 @@ M.activate = function(config)
     {
       intensity = "Normal",
       italic = false,
-      font = wezterm.font("Geist Mono", { weight = "Regular" }),
+      font = wezterm.font("GeistMono Nerd Font", { weight = "Regular" }),
     },
     {
       intensity = "Normal",
       italic = true,
-      font = wezterm.font("Geist Mono", { weight = 325, style = "Italic" }),
+      font = wezterm.font("GeistMono Nerd Font", { weight = 325, style = "Italic" }),
     },
     {
       intensity = "Bold",
       italic = false,
-      font = wezterm.font("Geist Mono", { weight = "Bold" }),
+      font = wezterm.font("GeistMono Nerd Font", { weight = "Bold" }),
     },
     {
       intensity = "Bold",
       italic = true,
-      font = wezterm.font("Geist Mono", { weight = "Bold", style = "Italic" }),
+      font = wezterm.font("GeistMono Nerd Font", { weight = "Bold", style = "Italic" }),
     },
   }
 end

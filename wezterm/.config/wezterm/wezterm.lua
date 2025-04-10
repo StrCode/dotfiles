@@ -12,8 +12,8 @@ local schemes  = selector.new({ title = "Color Scheme Selector",  subdir = "colo
 local sizes    = selector.new({ title = "Font Size Selector",     subdir = "sizes" })
 -- stylua: ignore end
 
-fonts:select(config, "Geist Mono")
-schemes:select(config, "Vacuous 2")
+fonts:select(config, "Berkeley Mono")
+schemes:select(config, "Vesper")
 
 -- Configuration
 config.front_end = "WebGpu"
@@ -25,7 +25,7 @@ config.adjust_window_size_when_changing_font_size = false
 config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 config.window_frame = {
   font = wezterm.font({ family = "Geist Mono", weight = "Regular" }),
-  font_size = 16,
+  font_size = 15,
 }
 config.window_padding = {
   left = 5,
