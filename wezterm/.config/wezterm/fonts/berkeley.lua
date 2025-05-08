@@ -12,8 +12,7 @@ M.activate = function(config)
   -- config.freetype_render_target = "HorizontalLcd"
   config.font_size = 15
   config.line_height = 1.3
-  config.harfbuzz_features = { "ss02=1" }
-  config.font_rules = {}
+  -- config.harfbuzz_features = { "ss02=1" }
   config.font_rules = {
     {
       intensity = "Normal",
@@ -23,7 +22,7 @@ M.activate = function(config)
     {
       intensity = "Normal",
       italic = true,
-      font = wezterm.font("TX-02", { weight = 325, style = "Italic" }),
+      font = wezterm.font("TX-02", { weight = "Regular", style = "Italic" }),
     },
     {
       intensity = "Bold",

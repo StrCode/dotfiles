@@ -10,29 +10,8 @@ freetype-load-flags = no-hinting
 freetype-load-flags = no-force-autohint
 
 # Fonts
-font-size = 16
-font-family = "Berkeley Mono"
-font-thicken = false
+font-size = 14
+font-family = "TX-02"
 
 window-inherit-font-size = true
 
-# Look and Feel
-adjust-cursor-thickness = 2
-adjust-underline-thickness = 3
-bold-is-bright = true
-link-url = true
-macos-titlebar-proxy-icon = hidden
-mouse-hide-while-typing = true
-window-vsync = true
-
-
-# Other
-clipboard-paste-protection     = true
-clipboard-trim-trailing-spaces = true
-copy-on-select                 = true
-macos-auto-secure-input        = true
-macos-secure-input-indication  = true
-quit-after-last-window-closed  = false
-scrollback-limit               = 4200
-shell-integration              = zsh
-shell-integration-features     = no-cursor,sudo,title

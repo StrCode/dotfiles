@@ -36,3 +36,9 @@ export PATH=$PATH:$GOPATH/bin
 # Added by Windsurf
 export PATH="/Users/vector/.codeium/windsurf/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/vector/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/vector/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/vector/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/vector/google-cloud-sdk/completion.zsh.inc'; fi
