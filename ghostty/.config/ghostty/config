@@ -10,7 +10,8 @@ freetype-load-flags = no-hinting
 freetype-load-flags = no-force-autohint
 
 # Fonts
-font-size = 14
+font-size = 15
+adjust-cell-height = 10
 font-family = "TX-02"
 
 window-inherit-font-size = true
