@@ -14,9 +14,6 @@ font-size = 15
 adjust-cell-height = 10
 font-family = "TX-02"
 
-# Tab-specific settings
-tab-font-size = 11
-tab-font-family = "System Font"
 
 window-inherit-font-size = true
 
