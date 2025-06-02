@@ -2,7 +2,7 @@
 # ghostty +list-themes
 
 # Themes
-theme = "vesper"
+theme = "GruvboxDarkHard"
 
 
 # Font
@@ -10,7 +10,7 @@ freetype-load-flags = no-hinting
 freetype-load-flags = no-force-autohint
 
 # Fonts
-font-size = 15
+font-size = 16
 adjust-cell-height = 10
 font-family = "TX-02"
 
