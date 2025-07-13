@@ -5,6 +5,7 @@
 theme = kanso-zen 
 
 background-opacity = 0.95
+background-blur-radius = 20
 
 # Font
 # freetype-load-flags = no-hinting
