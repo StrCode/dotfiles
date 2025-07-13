@@ -1,6 +1,6 @@
 local wezterm = require("wezterm")
 local M = {}
-local name = "Berkeley Mono"
+local name = "TX-02"
 
 M.init = function()
   return name

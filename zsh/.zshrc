@@ -37,3 +37,11 @@ if [ -f '/Users/vector/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/vector/g
 if [ -f '/Users/vector/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/vector/google-cloud-sdk/completion.zsh.inc'; fi
 
 eval "$(starship init zsh)"
+
+# pnpm
+export PNPM_HOME="/Users/vector/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

@@ -2,17 +2,18 @@
 # ghostty +list-themes
 
 # Themes
-theme = "GruvboxDarkHard"
+theme = kanso-zen 
 
+background-opacity = 0.95
 
 # Font
-freetype-load-flags = no-hinting
-freetype-load-flags = no-force-autohint
+# freetype-load-flags = no-hinting
+# freetype-load-flags = no-force-autohint
 
 # Fonts
 font-size = 16
-adjust-cell-height = 10
-font-family = "TX-02"
+adjust-cell-height = 8
+font-family = "GeistMono Nerd Font"
 
 
 window-inherit-font-size = true
