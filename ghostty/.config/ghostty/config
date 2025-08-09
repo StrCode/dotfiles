@@ -2,7 +2,7 @@
 # ghostty +list-themes
 
 # Themes
-theme = kanso-zen 
+theme = kanso-zen
 
 background-opacity = 0.95
 background-blur-radius = 20
@@ -14,7 +14,7 @@ background-blur-radius = 20
 # Fonts
 font-size = 16
 adjust-cell-height = 8
-font-family = "GeistMono Nerd Font"
+font-family = "TX-02"
 
 
 window-inherit-font-size = true

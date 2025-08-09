@@ -12,14 +12,14 @@ local schemes  = selector.new({ title = "Color Scheme Selector",  subdir = "colo
 local sizes    = selector.new({ title = "Font Size Selector",     subdir = "sizes" })
 -- stylua: ignore end
 
-fonts:select(config, "Geist Mono")
-schemes:select(config, "Kanso-Zen")
+fonts:select(config, "TX-02")
+schemes:select(config, "Kanso-Ink")
 
 -- Configuration
 config.front_end = "WebGpu"
 config.force_reverse_video_cursor = true
 
-config.window_background_opacity = 0.9
+config.window_background_opacity = 0.96
 config.text_background_opacity = 0.95
 config.macos_window_background_blur = 15
 

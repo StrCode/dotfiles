@@ -3,7 +3,8 @@
 [user]
 	name  = vector
 	email = samcodebello@gmail.com
-
+[push]
+  autoSetupRemote= true
 [pull]
 	rebase = true
 [core]

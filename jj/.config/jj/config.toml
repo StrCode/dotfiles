@@ -1,0 +1,8 @@
+username = "Samuel Bello"
+
+[user]
+email = "samcodebello@gmail.com"
+name = "Samuel Bello"
+
+[ui]
+diff-editor = "nvim"
