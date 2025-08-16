@@ -17,3 +17,9 @@
 	line-numbers = true
 [gitbutler]
 	aiModelProvider = anthropic
+[alias]
+  lg = log --oneline --graph --all --decorate
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
